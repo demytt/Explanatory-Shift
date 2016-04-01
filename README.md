@@ -2,20 +2,13 @@
 
 Dependencies: Python, Vowpal
 
+## Install git and clone repo
 ```
-
-Install git and clone repo
-
-```
-#!shell
-
 sudo apt-get install git
 git clone https://demytt@bitbucket.org/demytt/git_uchidata.git
 ```
 
-```
-
-Install vowpal
+## Install Vowpal Wabbit
 
 ```
 #!shell
@@ -31,10 +24,6 @@ cd vowpal-wabbit
 sudo make
 sudo make test
 sudo make install
-
-
-```
-
 ```
 
 ## Install python dependencies ##
